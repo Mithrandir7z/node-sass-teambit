@@ -1,19 +1,28 @@
 header {
     padding-top: 10px;
-    background-color: rgb(247, 183, 183);
+    /*test*/
+    // background-color: rgb(247, 183, 183);
     display: flex;
     justify-content: space-between;
+    color: $color_primary;
+    padding-bottom: 5px;
+    border-bottom: 1px solid $color_primary;
     
 
     .logo {
-        background-color: lightcyan;
+        /*test*/
+        // background-color: lightcyan;
         display: flex;
         justify-items: center;
         align-items: center;
 
         img {
-            width: 50px;
+            width: 20px;
             height: auto;
+        }
+
+        span {
+            padding-left: 10px;
         }
     }
 
@@ -31,6 +40,10 @@ header {
 
             button {
                 padding: 0px 20px 0px 20px;
+                background-color: white;
+                border: solid $color_secondary 1px ;
+                border-radius: 7px;
+                color: $color_secondary;
             }
         }
     }

@@ -54,15 +54,85 @@ header nav ul button {
 }
 
 .container-top {
+  padding-bottom: 80px;
   display: flex;
   justify-content: space-between;
   color: #835b3c;
 }
 .container-top .left {
-  background-color: lightcoral;
+  padding-top: 45px;
   width: 50%;
 }
+.container-top .left h2 {
+  font-size: 40px;
+}
+.container-top .left h4 {
+  padding-top: 17px;
+}
+.container-top .left h5 {
+  padding-top: 25px;
+}
+.container-top .left div {
+  padding-top: 45px;
+}
+.container-top .left div button {
+  padding: 4px 3px;
+  color: white;
+  background-color: #2e4790;
+  border-radius: 8px;
+  border-color: none;
+  border-color: #2e4790;
+}
 .container-top .right {
-  background-color: lightcyan;
   width: 50%;
+  padding-top: 45px;
+}
+
+.container-brown {
+  background-color: #ffe7d2;
+  padding-top: 70px;
+  width: 100%;
+}
+.container-brown h3 {
+  text-align: center;
+}
+.container-brown .griglia-top {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+.container-brown .griglia-top .left img {
+  width: auto;
+  height: 100px;
+}
+.container-brown .griglia-top .center {
+  display: block;
+  text-align: center;
+}
+.container-brown .griglia-top .center img {
+  width: auto;
+  height: 100px;
+}
+.container-brown .griglia-top .right {
+  text-align: center;
+}
+.container-brown .griglia-top .right img {
+  width: auto;
+  height: 100px;
+}
+.container-brown .griglia-down {
+  border-bottom: 1px solid #835b3c;
+}
+.container-brown .center {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+.container-brown .center img {
+  width: 220px;
+  height: auto;
+}
+.container-brown span {
+  text-align: center;
+  font-size: 26px;
 }

@@ -15,7 +15,6 @@ img {
 
 header {
   padding-top: 10px;
-  /*test*/
   display: flex;
   justify-content: space-between;
   color: #835b3c;
@@ -23,7 +22,6 @@ header {
   border-bottom: 1px solid #835b3c;
 }
 header .logo {
-  /*test*/
   display: flex;
   justify-items: center;
   align-items: center;
@@ -53,4 +51,18 @@ header nav ul button {
   border: solid #2e4790 1px;
   border-radius: 7px;
   color: #2e4790;
+}
+
+.container-top {
+  display: flex;
+  justify-content: space-between;
+  color: #835b3c;
+}
+.container-top .left {
+  background-color: lightcoral;
+  width: 50%;
+}
+.container-top .right {
+  background-color: lightcyan;
+  width: 50%;
 }

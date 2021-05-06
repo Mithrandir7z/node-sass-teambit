@@ -1,0 +1,18 @@
+.container-top {
+
+    display: flex;
+    justify-content: space-between;
+    color: $color_primary;
+
+    .left {
+        //test
+        background-color: lightcoral;
+        width: 50%;
+    }
+
+    .right {
+        //test
+        background-color: lightcyan;
+        width: 50%;
+    }
+}

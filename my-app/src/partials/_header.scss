@@ -1,0 +1,37 @@
+header {
+    padding-top: 10px;
+    background-color: rgb(247, 183, 183);
+    display: flex;
+    justify-content: space-between;
+    
+
+    .logo {
+        background-color: lightcyan;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+
+        img {
+            width: 50px;
+            height: auto;
+        }
+    }
+
+    nav {
+        display: flex;
+        justify-items: center;
+        align-items: center;
+
+        ul {
+            display: flex;
+            list-style-type: none;
+            li {
+                padding: 10px;
+            }
+
+            button {
+                padding: 0px 20px 0px 20px;
+            }
+        }
+    }
+}

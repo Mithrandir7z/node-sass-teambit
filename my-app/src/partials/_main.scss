@@ -59,30 +59,30 @@
         display: flex;
         justify-content: space-around;
 
-            .left {
-                img {
-                    @include width-image;
-                }
+        .left {
+            img {
+                @include width-image;
             }
+        }
 
-            .center {
-                display: block;
-                text-align: center;
-                img {
-                    @include width-image;
-                }
+        .center {
+            display: block;
+            text-align: center;
+            img {
+                @include width-image;
             }
+        }
 
-            .right {
-                text-align: center;
-                img {
-                    @include width-image;
-                }
+        .right {
+            text-align: center;
+            img {
+                @include width-image;
             }
+        }
     }
 
     .griglia-down {
-            border-bottom: 1px solid $color_primary;
+        border-bottom: 1px solid $color_primary;
     }
 
     .center {
@@ -100,5 +100,85 @@
         text-align: center;
         font-size: 26px;
     }
+
+    .griglia-down-without_border {
+        padding-top: 80px;
+        h5 {
+            text-align: center;
+            padding-bottom: 80px;
+        }
+    }
 }
 //FINE SECTION BROWN
+
+
+
+//INIZIO SECTION SCREEN
+.screens {
+    padding-top: 80px;
+    width: 100%;
+    background-color: white;
+
+
+    //left angle
+    #left-modifica-singola {
+        width: 35%;
+        height: auto;
+    }
+
+    #right-modifica-singola {
+        width: 65%;
+    }
+
+    #margine-sinistra {
+        margin-left: auto;
+    }
+
+    .angle {
+        padding-top: 50px;
+        display: flex;
+        width: 80%;
+
+        //left
+        .left {
+            width: 65%;
+            height: auto;
+        }
+
+        //right
+        .right {
+            padding-left: 40px;
+            width: 35%;
+
+            .top {
+                font-size: 26px;
+                h4 {
+                    padding-bottom: 50px;
+                    color: $color_primary;
+                }
+    
+                p {
+                    padding-bottom: 25px;
+                    color: $color_primary;
+                }
+    
+                a {
+                    padding-bottom: 12px;
+                    color: $color_secondary;
+                }
+            }
+
+
+            .bottom {
+                padding-top: 40px;
+                img {
+                    height: auto;
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    
+}
+//FINE SECTION SCREEN

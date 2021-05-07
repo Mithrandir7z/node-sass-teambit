@@ -17,9 +17,9 @@ header {
   padding-top: 10px;
   display: flex;
   justify-content: space-between;
-  color: #835b3c;
+  color: #7F14D4;
   padding-bottom: 5px;
-  border-bottom: 1px solid #835b3c;
+  border-bottom: 1px solid #7F14D4;
 }
 header .logo {
   display: flex;
@@ -27,7 +27,7 @@ header .logo {
   align-items: center;
 }
 header .logo img {
-  width: 20px;
+  width: 100px;
   height: auto;
 }
 header .logo span {
@@ -57,7 +57,7 @@ header nav ul button {
   padding-bottom: 80px;
   display: flex;
   justify-content: space-between;
-  color: #835b3c;
+  color: #7F14D4;
 }
 .container-top .left {
   padding-top: 45px;
@@ -89,7 +89,7 @@ header nav ul button {
 }
 
 .container-brown {
-  background-color: #ffe7d2;
+  background-color: darkblue;
   padding-top: 70px;
   width: 100%;
 }
@@ -121,7 +121,7 @@ header nav ul button {
   height: 100px;
 }
 .container-brown .griglia-down {
-  border-bottom: 1px solid #835b3c;
+  border-bottom: 1px solid #7F14D4;
 }
 .container-brown .center {
   display: flex;
@@ -135,4 +135,62 @@ header nav ul button {
 .container-brown span {
   text-align: center;
   font-size: 26px;
+}
+.container-brown .griglia-down-without_border {
+  padding-top: 80px;
+}
+.container-brown .griglia-down-without_border h5 {
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+.screens {
+  padding-top: 80px;
+  width: 100%;
+  background-color: white;
+}
+.screens #left-modifica-singola {
+  width: 35%;
+  height: auto;
+}
+.screens #right-modifica-singola {
+  width: 65%;
+}
+.screens #margine-sinistra {
+  margin-left: auto;
+}
+.screens .angle {
+  padding-top: 50px;
+  display: flex;
+  width: 80%;
+}
+.screens .angle .left {
+  width: 65%;
+  height: auto;
+}
+.screens .angle .right {
+  padding-left: 40px;
+  width: 35%;
+}
+.screens .angle .right .top {
+  font-size: 26px;
+}
+.screens .angle .right .top h4 {
+  padding-bottom: 50px;
+  color: #7F14D4;
+}
+.screens .angle .right .top p {
+  padding-bottom: 25px;
+  color: #7F14D4;
+}
+.screens .angle .right .top a {
+  padding-bottom: 12px;
+  color: #2e4790;
+}
+.screens .angle .right .bottom {
+  padding-top: 40px;
+}
+.screens .angle .right .bottom img {
+  height: auto;
+  width: 100%;
 }

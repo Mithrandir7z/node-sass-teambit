@@ -194,3 +194,19 @@ header nav ul button {
   height: auto;
   width: 100%;
 }
+
+.wrapper_see_teambit {
+  padding-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: darkblue;
+}
+.wrapper_see_teambit .container_see_teambit .top {
+  font-size: 26px;
+}
+.wrapper_see_teambit .container_see_teambit .bottom {
+  width: 40%;
+  background-color: white;
+}
